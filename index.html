@@ -1,0 +1,131 @@
+<html>
+    <head>
+
+        <title>HOMEPAGE</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="clock_style.css"> 
+        <center>
+        <script type="text/javascript">
+        window.onload = setInterval(clock,1000);
+
+        function clock()
+        {
+            var d = new Date();
+
+            var date = d.getDate();
+
+            var month = d.getMonth();
+            var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+            month=montharr[month];
+ 
+            var year = d.getFullYear();
+
+            var day = d.getDay();
+            var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            day=dayarr[day];
+
+            var hour =d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+ 
+            document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+            document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+        }
+        </script>
+      
+        
+         
+    </head>
+    <body>
+        <ul>
+
+            <li><a href="index.html">WELCOME TO MY HOMEPAGE</a></li>
+            <li><a href="biodata.html">MY BIODATA</a></li>
+            <li><a href="myeducation.html">MY UNIVERSITY</a></li>
+            <li><a href="myexperience.html">MY EXPERIENCE</a></li>
+            <li><a href="myfamily.html">MY FAMILY</a></li>
+            <li><a href="mygallery.html">MY GALLERY</a></li>
+            <li><a href="memories.html">MEMORIES</a></li>
+    
+        </ul>
+       
+        <br>
+        <br>
+        <br>
+      
+        <p id="date"></p>
+        <p id="time"></p>
+        </center>
+
+        <style> 
+    
+            body
+            {
+                background-image: url('images/bear.jpg');
+        
+            }
+                
+            </style>
+
+        <h1><b>بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</b></h1>
+
+        <img src="images/logo uitm 2.png" align="center" width="300 px" hspace="600" vspace="0.5" border="0">
+        <br>
+
+        <h2 align="center">INFORMATION SCIENCE STUDIES<br>COLLEGE OF COMPUTING INFORMATICS AND MEDIA,<br>UNIVERSITI TEKNOLOGI MARA<br> NEGERI SEMBILAN<br>(IM110)</h2> 
+
+        <style>
+            table, th, td
+            {
+                border:2px solid black;
+                border-collapse: collapse;
+            }
+            th, td
+            {
+                text-align: left;
+            }
+            th, td
+            {
+                padding: 10px;
+            }
+        </style>
+
+<table style="width: 60%" align="center">
+
+        <tr bgcolor="#ffe4c4">
+            <th> NAMA </th>
+            <td >NUR AZREEN BINTI KAMARUDIN</td>
+        </tr>
+        <tr bgcolor="#ffe4c4">
+            <th >NO MATRIKS</th>
+            <td align="left" valign="top"> 2020471902 </td>
+        </tr>
+        <tr bgcolor="#ffe4c4">
+            <th>CLASS</th>
+            <td >N5IM1105A</td> 
+        </tr>
+        <tr bgcolor="#ffe4c4">
+            <th>TITLE</th>
+            <td >ASSIGNMENT INDIVIDUAL : AIZREEN_WEBSITE</td> 
+        </tr>
+        <tr bgcolor="#ffe4c4">
+            <th>PREPARED FOR</th>
+            <td >MADAM SERI INTAN IDAYU SHAHRUL ASARI</td> 
+        </tr>
+        <tr bgcolor="#ffe4c4">
+            <th>DATE SUBMISION</th>
+            <td >13RD JANUARY 2023</td> 
+        </tr>
+    </table>
+
+        <a align="left" href="https://www.facebook.com/nurazreen.kamarudin.7/" class="fa fa-facebook"></a>
+        <a align="center" href="https://www.instagram.com/aizriennn/" class="fa fa-instagram"></a>
+        <a align="center" href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    
+        <div style="text-align: center">
+            <h6>- UPDATED JANUARI - copyright <em>eryien 2023</em></h6>
+            </div>
+
+     </body>
+</html>
